@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#73C521"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/user"
+        android:layout_gravity="center"
+        />
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="10dp"
+     android:layout_gravity="center"
+     android:gravity="center"
+     android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/oswald"
+            android:text="Welcome " />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:textSize="30sp"
+            android:text="name" />
+    </LinearLayout>
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:fontFamily="@font/oswald"
+           android:id="@+id/email"
+           android:text="email"
+           android:textSize="22sp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:fontFamily="@font/oswald"
+           android:id="@+id/number"
+           android:text="number"
+           android:textSize="22sp"
+
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:fontFamily="@font/oswald"
+           android:id="@+id/place"
+           android:text="place"
+           android:textSize="22sp"
+
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:fontFamily="@font/oswald"
+           android:id="@+id/accountnumber"
+           android:text="accountnumber"
+           android:textSize="22sp"
+
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:fontFamily="@font/oswald"
+           android:id="@+id/amount"
+           android:text="amount"
+           android:textSize="22sp"
+
+           />
+ </LinearLayout>
+</LinearLayout>
